@@ -654,7 +654,7 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/down-bg.png');
+  background-image: url('../images/down-bg.jpg');
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
@@ -704,16 +704,25 @@ strong {
 }
 
 .schedule-table .elys1-background-image {
-  background-image: url('../images/elyspbr-down-bg.png');
+  background-image: url('../images/elyspbr-down-bg.jpg');
+}
+
+.schedule-table .elysjava-background-image {
+  background-image: url('../images/elyspbr-java-down-bg.jpg');
 }
 
 .schedule-table .elys2-background-image {
-  background-image: url('../images/elyspbr-c-down-bg.png');
+  background-image: url('../images/elyspbr-c-down-bg.jpg');
 }
 
 .schedule-table .elys3-background-image {
-  background-image: url('../images/elyspbr-ores-down-bg.png');
+  background-image: url('../images/elyspbr-ores-down-bg.jpg');
 }
+
+.schedule-table .elys5-background-image {
+  background-image: url('../images/elyspbr-clearglass-down-bg.jpg');
+}
+
 
 .table-background-image-wrap {
   background-repeat: no-repeat;
@@ -735,11 +744,12 @@ strong {
   PRICING              
 -----------------------------------------*/
 .pricing-thumb {
-  border: 5px dotted var(--dark-color);
-  border-radius: var(--border-radius-medium);
+  /* border: 5px solid var(--dark-color); */
+  /* border-radius: var(--border-radius-medium); */
   position: relative;
   padding: 50px;
 }
+
 
 .pricing-thumb h3 small {
   display: inline-block;
