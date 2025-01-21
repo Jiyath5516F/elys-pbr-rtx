@@ -623,64 +623,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-    const modal = document.getElementById("adModal");
-    const closeModal = document.getElementById("closeModal");
-    const continueButton = document.getElementById("continueButton");
-    const adLink = document.getElementById("adLink");
-    const adModalShown = localStorage.getItem("adModalShown");
-    const threeMinutes = 1000 * 60 * 3;
-
-    function showModal() {
-        modal.style.display = "block";
-    }
-
-     function hideModal() {
-      modal.style.display = "none";
-      localStorage.setItem("adModalShown", Date.now());
-    }
-
-    if (!adModalShown || (Date.now() - adModalShown) > threeMinutes) {
-        showModal();
-    }
-
-    closeModal.onclick = function() {
-      hideModal();
-    }
-
-    continueButton.onclick = function() {
-        // Replace with code that directs to your site
-        console.log("continue to site")
-        hideModal();
-    }
-
-    adLink.onclick = function(event) {
-      event.preventDefault(); // Prevent the default link behavior
-      
-       // Create a temporary <a> element
-      const tempLink = document.createElement('a');
-      tempLink.style.display = 'none'; // Keep it hidden
-      tempLink.href = '#'; // Set a dummy href
-
-      document.body.appendChild(tempLink);
     
-      // Trigger a click event on the tempLink to open ad
-      tempLink.click();
-      
-      // Remove the temporary link
-      document.body.removeChild(tempLink);
-    
-      hideModal();
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            hideModal();
-        }
-    }
-});
-</script>
 </body>
 
 </html>
