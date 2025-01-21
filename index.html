@@ -623,6 +623,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById("adModal");
+    const closeModal = document.getElementById("closeModal");
+    const continueButton = document.getElementById("continueButton");
+    const adLink = document.getElementById("adLink");
+    const adModalShown = localStorage.getItem("adModalShown");
+    const threeMinutes = 1000 * 60 * 3;
+
+    function showModal() {
+        modal.style.display = "block";
+    }
+
+     function hideModal() {
+      modal.style.display = "none";
+      localStorage.setItem("adModalShown", Date.now());
+    }
+
+    if (!adModalShown || (Date.now() - adModalShown) > threeMinutes) {
+        showModal();
+    }
+
+    closeModal.onclick = function() {
+      hideModal();
+    }
+
+    continueButton.onclick = function() {
+        // Replace with code that directs to your site
+        console.log("continue to site")
+        hideModal();
+    }
+
+    adLink.onclick = function(event) {
+        event.preventDefault(); // Prevent default link behavior
+
+      // Simulate an Adquake click
+      var event = new CustomEvent('adquake-click', {
+        bubbles: true,
+        cancelable: true,
+      });
+      adLink.dispatchEvent(event);
+
+      hideModal();
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            hideModal();
+        }
+    }
+});
 
 </body>
 
