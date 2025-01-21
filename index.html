@@ -624,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById("adModal");
     const closeModal = document.getElementById("closeModal");
     const continueButton = document.getElementById("continueButton");
@@ -656,15 +656,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
 
     adLink.onclick = function(event) {
-        event.preventDefault(); // Prevent default link behavior
+      event.preventDefault(); // Prevent the default link behavior
+      
+       // Create a temporary <a> element
+      const tempLink = document.createElement('a');
+      tempLink.style.display = 'none'; // Keep it hidden
+      tempLink.href = '#'; // Set a dummy href
 
-      // Simulate an Adquake click
-      var event = new CustomEvent('adquake-click', {
-        bubbles: true,
-        cancelable: true,
-      });
-      adLink.dispatchEvent(event);
-
+      document.body.appendChild(tempLink);
+    
+      // Trigger a click event on the tempLink to open ad
+      tempLink.click();
+      
+      // Remove the temporary link
+      document.body.removeChild(tempLink);
+    
       hideModal();
     }
 
