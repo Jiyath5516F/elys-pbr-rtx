@@ -1,4 +1,3 @@
-google.com, pub-5428139109991473, DIRECT, f08c47fec0942fa0
 # SOVRN
 lijit.com, 542132, DIRECT, fafdf38b16bf6b2b #SOVRN
 lijit.com, 542132-eb, DIRECT, fafdf38b16bf6b2b #SOVRN
