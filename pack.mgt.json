@@ -1,37 +1,44 @@
 [
   {
-    "name": "Elys PBR Clear Glass AddOn",
-    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBRClearGlassAddOn.mcpack",
-    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBRClearGlassAddOn.png",
-    "description": "Enhances glass textures with clear, realistic visuals using PBR and RTX.",
-    "version": "1.0.0"
-  },
+  "name": "Elys PBR Clear Glass AddOn",
+  "url": "https://raw.githubusercontent.com/Jiyath5516F/elys-pbr-rtx/refs/heads/main/mcpacks/ElysPBRClearGlassAddOn.mcpack",
+  "icon": "https://raw.githubusercontent.com/Jiyath5516F/elys-pbr-rtx/refs/heads/main/mcpacks/icons/ElysPBRClearGlassAddOn.png",
+  "description": "Enhances glass textures with clear, realistic visuals using PBR and RTX.",
+  "version": "1.0.0",
+  "uuid": "123e4567-e89b-12d3-a456-426614174000"
+},
   {
-    "name": "Elys PBR The Pale Garden Edition v1.8.3",
-    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_PBR_The_Pale_Garden_Edition_v1.8.3.mcpack",
-    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_PBR_The_Pale_Garden_Edition_v1.8.3.png",
+    "name": "Elys PBR v1.9",
+    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBRv1.9.mcpack",
+    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBRv1.9.png",
     "description": "A special edition of Elys PBR with enhanced visuals for the Pale Garden biome.",
-    "version": "1.8.3"
+    "version": "1.8.3",
+    "uuid": "c81476d6-6db9-11ee-b962-0242ac120002"
+    
   },
   {
     "name": "Elys PBR Normals",
     "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBR-Normals.mcpack",
     "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBR-Normals.png",
     "description": "Adds normal maps to Elys PBR for improved depth and realism.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "uuid": "420fd262-7f8e-48ff-8acc-407c8264ca6b"
   },
   {
     "name": "Elys Glowing Ores",
     "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_Glowing_Ores.mcpack",
     "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_Glowing_Ores.png",
     "description": "Makes ores glow with emissive textures for better visibility.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "uuid": "9b3c3cd2-27bb-11ee-be56-0242ac120203"
+    
   },
   {
     "name": "Elys Glowing Coral",
     "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_Glowing_Coral.mcpack",
     "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_Glowing_Coral.png",
     "description": "Adds glowing effects to coral blocks for a vibrant underwater experience.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "uuid": "9b3c3cd2-27bb-11ee-be56-0242ac120103"
   }
 ]
