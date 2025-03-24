@@ -1,25 +1,37 @@
-{ 
-    name: 'Elys PBR Clear Glass AddOn', 
-    url: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBRClearGlassAddOn.mcpack',
-    icon: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBRClearGlassAddOn.png'
+[
+  {
+    "name": "Elys PBR Clear Glass AddOn",
+    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBRClearGlassAddOn.mcpack",
+    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBRClearGlassAddOn.png",
+    "description": "Enhances glass textures with clear, realistic visuals using PBR and RTX.",
+    "version": "1.0.0"
   },
-  { 
-    name: 'Elys PBR The Pale Garden Edition v1.8.3', 
-    url: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_PBR_The_Pale_Garden_Edition_v1.8.3.mcpack',
-    icon: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_PBR_The_Pale_Garden_Edition_v1.8.3.png'
+  {
+    "name": "Elys PBR The Pale Garden Edition v1.8.3",
+    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_PBR_The_Pale_Garden_Edition_v1.8.3.mcpack",
+    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_PBR_The_Pale_Garden_Edition_v1.8.3.png",
+    "description": "A special edition of Elys PBR with enhanced visuals for the Pale Garden biome.",
+    "version": "1.8.3"
   },
-  { 
-    name: 'Elys PBR Normals', 
-    url: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBR-Normals.mcpack',
-    icon: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBR-Normals.png'
+  {
+    "name": "Elys PBR Normals",
+    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/ElysPBR-Normals.mcpack",
+    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/ElysPBR-Normals.png",
+    "description": "Adds normal maps to Elys PBR for improved depth and realism.",
+    "version": "1.0.0"
   },
-  { 
-    name: 'Elys Glowing Ores', 
-    url: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_Glowing_Ores.mcpack',
-    icon: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_Glowing_Ores.png'
+  {
+    "name": "Elys Glowing Ores",
+    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_Glowing_Ores.mcpack",
+    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_Glowing_Ores.png",
+    "description": "Makes ores glow with emissive textures for better visibility.",
+    "version": "1.0.0"
   },
-  { 
-    name: 'Elys Glowing Coral', 
-    url: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_Glowing_Coral.mcpack',
-    icon: 'https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_Glowing_Coral.png'
+  {
+    "name": "Elys Glowing Coral",
+    "url": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/Elys_Glowing_Coral.mcpack",
+    "icon": "https://github.com/Jiyath5516F/elys-pbr-rtx/raw/refs/heads/main/mcpacks/icons/Elys_Glowing_Coral.png",
+    "description": "Adds glowing effects to coral blocks for a vibrant underwater experience.",
+    "version": "1.0.0"
   }
+]
